@@ -43,6 +43,12 @@ def fazMovimento(board, i, j, jogador):
   board[i][j] = token[jogador]
 
 def verificaGanhador(board):
+  """
+    Ainda não consegui fazer a verificação
+    correta da pontuação professor
+    estou trabalhando nisso
+    """
+
   #Linhas:
   for i in range(len(board)):
     cont = 0
