@@ -1,9 +1,12 @@
-from funcoes import *
+from funcoes2 import *
 from random import *
 
 jogador = 0
-
+#linhas = int(input("Informe quantas linhas: "))
+#colunas = int(input("Informe quantas colunas: "))
 board = criarBoard()
+printBoard(board)
+
 ganhador = verificaGanhador(board)
 while(not ganhador): 
   printBoard(board)
